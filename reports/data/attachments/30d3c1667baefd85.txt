@@ -1,0 +1,1 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://223.75.51.43:39090 "GET /basedata/equipgroup/list?data%20=%20%7B%22limit%22:%2015,%22offset%22:%200%7D HTTP/1.1" 200 None

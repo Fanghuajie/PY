@@ -1,0 +1,25 @@
+-
+  name: 创建新设备1
+  request:
+    method: post
+    url: http://223.75.51.43:39090/basedata/equipgroup/save
+    data:
+      egCode: 124
+      egName: 0124
+      egFlag: 123
+      remark: remark
+      isInvalid: 0
+  validate:
+    - equal
+-
+  name: 创建新设备2
+  request:
+    method: post
+    url: http://223.75.51.43:39090/basedata/equipgroup/save
+    data:
+      egCode: 125
+      egName: 0125
+      egFlag: 123
+      remark: remark
+      isInvalid: 0
+  validate: None

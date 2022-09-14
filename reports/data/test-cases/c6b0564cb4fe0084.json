@@ -1,0 +1,123 @@
+{
+  "uid" : "c6b0564cb4fe0084",
+  "name" : "test_new_eq[eqinfo1]",
+  "fullName" : "Testcase.Test_equipment.Test_ep_info#test_new_eq",
+  "historyId" : "b26e8b01f571dafc103d520957d51a00",
+  "time" : {
+    "start" : 1663079469888,
+    "stop" : 1663079469995,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_ep_info",
+    "time" : {
+      "start" : 1663079469887,
+      "stop" : 1663079469887,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1663079468994,
+      "stop" : 1663079468994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5d6375f7a31da715",
+      "name" : "log",
+      "source" : "5d6375f7a31da715.txt",
+      "type" : "text/plain",
+      "size" : 130
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_ep_info::0",
+    "time" : {
+      "start" : 1663079469997,
+      "stop" : 1663079469997,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_equipment"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ep_info"
+  }, {
+    "name" : "host",
+    "value" : "FHJ-PC"
+  }, {
+    "name" : "thread",
+    "value" : "6780-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.Test_equipment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "eqinfo",
+    "value" : "{'name': '创建新设备2', 'request': {'method': 'post', 'url': 'http://223.75.51.43:39090/basedata/equipgroup/save', 'data': {'egCode': 125, 'egName': 85, 'egFlag': 123, 'remark': 'remark', 'isInvalid': 0}}, 'validate': 'None'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "c6b0564cb4fe0084.json",
+  "parameterValues" : [ "{'name': '创建新设备2', 'request': {'method': 'post', 'url': 'http://223.75.51.43:39090/basedata/equipgroup/save', 'data': {'egCode': 125, 'egName': 85, 'egFlag': 123, 'remark': 'remark', 'isInvalid': 0}}, 'validate': 'None'}" ]
+}
