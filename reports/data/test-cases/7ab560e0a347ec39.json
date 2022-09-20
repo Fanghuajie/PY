@@ -1,0 +1,174 @@
+{
+  "uid" : "7ab560e0a347ec39",
+  "name" : "test_login[http://223.75.51.43:39090/login-{\"username\": \"\",\"password\": \"\"}-post-login-用户名和密码为空-500.0-用户或密码错误-通过]",
+  "fullName" : "Testcase.Test_equipment.Test_ep_info#test_login",
+  "historyId" : "ed49247a9bee7372bd770f104676f358",
+  "time" : {
+    "start" : 1663248418472,
+    "stop" : 1663248418551,
+    "duration" : 79
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_ep_info",
+    "time" : {
+      "start" : 1663248418469,
+      "stop" : 1663248418469,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clear_yaml",
+    "time" : {
+      "start" : 1663248418239,
+      "stop" : 1663248418240,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "conn_database",
+    "time" : {
+      "start" : 1663248418471,
+      "stop" : 1663248418471,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47f1c17195fefdfb",
+      "name" : "log",
+      "source" : "47f1c17195fefdfb.txt",
+      "type" : "text/plain",
+      "size" : 111
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_ep_info::0",
+    "time" : {
+      "start" : 1663248418556,
+      "stop" : 1663248418556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "conn_database::0",
+    "time" : {
+      "start" : 1663248418552,
+      "stop" : 1663248418552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Test_equipment"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_ep_info"
+  }, {
+    "name" : "host",
+    "value" : "FHJ-PC"
+  }, {
+    "name" : "thread",
+    "value" : "3956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.Test_equipment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "500.0"
+  }, {
+    "name" : "data",
+    "value" : "'{\"username\": \"\",\"password\": \"\"}'"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "module",
+    "value" : "'login'"
+  }, {
+    "name" : "msg",
+    "value" : "'用户或密码错误'"
+  }, {
+    "name" : "name",
+    "value" : "'用户名和密码为空'"
+  }, {
+    "name" : "result",
+    "value" : "'通过'"
+  }, {
+    "name" : "url",
+    "value" : "'http://223.75.51.43:39090/login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "7ab560e0a347ec39.json",
+  "parameterValues" : [ "500.0", "'{\"username\": \"\",\"password\": \"\"}'", "'post'", "'login'", "'用户或密码错误'", "'用户名和密码为空'", "'通过'", "'http://223.75.51.43:39090/login'" ]
+}

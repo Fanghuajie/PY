@@ -2,105 +2,105 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_login[http://223.75.51.43:39090/login-{\"username\": \"admin\",\"password\": \"123456\"}-post-login-正常登陆-0.0-操作成功-]",
-    "uid" : "db569dde103c4dcd",
+    "name" : "test_login[http://223.75.51.43:39090/login-{\"username\": \"admin\",\"password\": \"123456\"}-post-login-正常登陆-0.0-操作成功-通过]",
+    "uid" : "9b8e9d675d5f1bb0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079468996,
-      "stop" : 1663079469114,
-      "duration" : 118
+      "start" : 1663248418242,
+      "stop" : 1663248418351,
+      "duration" : 109
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "0.0", "'{\"username\": \"admin\",\"password\": \"123456\"}'", "'post'", "'login'", "'操作成功'", "'正常登陆'", "''", "'http://223.75.51.43:39090/login'" ]
+    "parameters" : [ "0.0", "'{\"username\": \"admin\",\"password\": \"123456\"}'", "'post'", "'login'", "'操作成功'", "'正常登陆'", "'通过'", "'http://223.75.51.43:39090/login'" ]
   }, {
-    "name" : "test_login[http://223.75.51.43:39090/login-{\"username\": \"admin\",\"password\": \"123\"}-post-login-密码错误-500.0-用户或密码错误-]",
-    "uid" : "b231765d80ebce9e",
+    "name" : "test_login[http://223.75.51.43:39090/login-{\"username\": \"admin\",\"password\": \"123\"}-post-login-密码错误-500.0-用户或密码错误-通过]",
+    "uid" : "df665ffbbd0c7498",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079469144,
-      "stop" : 1663079469225,
+      "start" : 1663248418375,
+      "stop" : 1663248418456,
       "duration" : 81
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "500.0", "'{\"username\": \"admin\",\"password\": \"123\"}'", "'post'", "'login'", "'用户或密码错误'", "'密码错误'", "''", "'http://223.75.51.43:39090/login'" ]
+    "parameters" : [ "500.0", "'{\"username\": \"admin\",\"password\": \"123\"}'", "'post'", "'login'", "'用户或密码错误'", "'密码错误'", "'通过'", "'http://223.75.51.43:39090/login'" ]
   }, {
-    "name" : "test_login[http://223.75.51.43:39090/login-{\"username\": \"\",\"password\": \"\"}-post-login-用户名和密码为空-500.0-用户或密码错误-]",
-    "uid" : "4e26d436e53bffc1",
+    "name" : "test_login[http://223.75.51.43:39090/login-{\"username\": \"\",\"password\": \"\"}-post-login-用户名和密码为空-500.0-用户或密码错误-通过]",
+    "uid" : "7ab560e0a347ec39",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079469244,
-      "stop" : 1663079469446,
-      "duration" : 202
+      "start" : 1663248418472,
+      "stop" : 1663248418551,
+      "duration" : 79
     },
     "flaky" : false,
     "newFailed" : false,
-    "parameters" : [ "500.0", "'{\"username\": \"\",\"password\": \"\"}'", "'post'", "'login'", "'用户或密码错误'", "'用户名和密码为空'", "''", "'http://223.75.51.43:39090/login'" ]
+    "parameters" : [ "500.0", "'{\"username\": \"\",\"password\": \"\"}'", "'post'", "'login'", "'用户或密码错误'", "'用户名和密码为空'", "'通过'", "'http://223.75.51.43:39090/login'" ]
   }, {
     "name" : "test_get_ep_list[http://223.75.51.43:39090/basedata/equipgroup/list-data = {\"limit\": 10,\"offset\": 0}-get-list]",
-    "uid" : "6d32d8b4fd43b4f1",
+    "uid" : "b855e549d44263d3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079469472,
-      "stop" : 1663079469563,
-      "duration" : 91
+      "start" : 1663248418560,
+      "stop" : 1663248418646,
+      "duration" : 86
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'data = {\"limit\": 10,\"offset\": 0}'", "'get'", "'list'", "'http://223.75.51.43:39090/basedata/equipgroup/list'" ]
   }, {
     "name" : "test_get_ep_list[http://223.75.51.43:39090/basedata/equipgroup/list-data = {\"limit\": 5,\"offset\": 0}-get-list]",
-    "uid" : "fe94f3fad484d786",
+    "uid" : "7c8d85b5e9874d52",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079469577,
-      "stop" : 1663079469672,
-      "duration" : 95
+      "start" : 1663248418670,
+      "stop" : 1663248418745,
+      "duration" : 75
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'data = {\"limit\": 5,\"offset\": 0}'", "'get'", "'list'", "'http://223.75.51.43:39090/basedata/equipgroup/list'" ]
   }, {
     "name" : "test_get_ep_list[http://223.75.51.43:39090/basedata/equipgroup/list-data = {\"limit\": 15,\"offset\": 0}-get-list]",
-    "uid" : "333960d91b6b75c0",
+    "uid" : "ce30dfe890327e0a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079469684,
-      "stop" : 1663079469771,
-      "duration" : 87
+      "start" : 1663248418752,
+      "stop" : 1663248418843,
+      "duration" : 91
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "'data = {\"limit\": 15,\"offset\": 0}'", "'get'", "'list'", "'http://223.75.51.43:39090/basedata/equipgroup/list'" ]
   }, {
     "name" : "test_new_eq[eqinfo0]",
-    "uid" : "84f835de86bab4e",
+    "uid" : "bcdec26ee268e6fe",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079469793,
-      "stop" : 1663079469880,
-      "duration" : 87
+      "start" : 1663248418853,
+      "stop" : 1663248418942,
+      "duration" : 89
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "{'name': '创建新设备1', 'request': {'method': 'post', 'url': 'http://223.75.51.43:39090/basedata/equipgroup/save', 'data': {'egCode': 124, 'egName': 84, 'egFlag': 123, 'remark': 'remark', 'isInvalid': 0}}, 'validate': ['equal']}" ]
   }, {
     "name" : "test_new_eq[eqinfo1]",
-    "uid" : "c6b0564cb4fe0084",
+    "uid" : "6208ad5dd703e483",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1663079469888,
-      "stop" : 1663079469995,
-      "duration" : 107
+      "start" : 1663248418947,
+      "stop" : 1663248419017,
+      "duration" : 70
     },
     "flaky" : false,
     "newFailed" : false,

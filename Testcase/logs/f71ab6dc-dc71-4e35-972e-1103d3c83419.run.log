@@ -1,0 +1,133 @@
+2022-09-20 21:44:12.614 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: testcase description, TestCase ID: f71ab6dc-dc71-4e35-972e-1103d3c83419
+2022-09-20 21:44:12.615 | INFO     | httprunner.runner:__run_step:292 - run step begin: /vcms/app/info >>>>>>
+2022-09-20 21:44:12.671 | DEBUG    | httprunner.client:request:186 - client IP: 192.168.1.3, Port: 55662
+2022-09-20 21:44:12.674 | DEBUG    | httprunner.client:request:194 - server IP: 58.49.165.22, Port: 8062
+2022-09-20 21:44:12.678 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : http://58.49.165.22:8062/vcms/app/info?attClient=1&current=1&infoType=2&size=5
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json, text/plain, */*",
+    "Connection": "keep-alive",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Authorization": "Bearer pig::91341600MA2MXAHD26::40b1774c-1aaf-4ce3-8c85-3ba00f8220bb",
+    "Host": "58.49.165.22:8062",
+    "Referer": "http://58.49.165.22:8062/",
+    "HRUN-Request-ID": "HRUN-f71ab6dc-dc71-4e35-972e-1103d3c83419-452617"
+}
+cookies  : {}
+body     : None
+
+2022-09-20 21:44:12.682 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "nginx/1.23.0",
+    "Date": "Tue, 20 Sep 2022 13:44:11 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "X-RateLimit-Remaining": "197",
+    "X-RateLimit-Requested-Tokens": "1",
+    "X-RateLimit-Burst-Capacity": "200",
+    "X-RateLimit-Replenish-Rate": "100",
+    "Expires": "0",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "X-XSS-Protection": "1; mode=block",
+    "Pragma": "no-cache",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Methods": "*",
+    "Access-Control-Allow-Headers": "Content-Type,*"
+}
+cookies  : {}
+encoding : None
+content_type : application/json
+body     : {
+    "code": 0,
+    "msg": null,
+    "data": {
+        "records": [
+            {
+                "infoId": "1553982193985036289",
+                "title": "武汉经开区人才强区政策“黄金十条”全文来了！",
+                "infoType": "2",
+                "startTime": "2022-08-01 13:53:21",
+                "endTime": null,
+                "link": "",
+                "isup": null,
+                "des": null,
+                "imgurl": "http://asset.iloumai.com/dev/2022/8/b0ef355645c743ffac0ca89dd3c6a621.jpg",
+                "attachments": null
+            },
+            {
+                "infoId": "1553981273188507649",
+                "title": "武汉经开区人才强区政策“黄金十条”详细解读（之一）",
+                "infoType": "2",
+                "startTime": "2022-08-01 13:49:42",
+                "endTime": null,
+                "link": "",
+                "isup": null,
+                "des": null,
+                "imgurl": "http://asset.iloumai.com/dev/2022/8/b63b8104d1344607bde6b6428ad46e4a.jfif",
+                "attachments": null
+            },
+            {
+                "infoId": "1546744150605602817",
+                "title": "武汉经开区人才强区政策“黄金十条”详细解读（之二）",
+                "infoType": "2",
+                "startTime": "2022-07-12 14:31:57",
+                "endTime": null,
+                "link": "",
+                "isup": null,
+                "des": null,
+                "imgurl": "http://asset.iloumai.com/dev/2022/7/b2ea8bd48d3649caa76defe2076380ae.png",
+                "attachments": null
+            },
+            {
+                "infoId": "1546742519268810754",
+                "title": "武汉经开区政策合集来了！不断更新 一键直达",
+                "infoType": "2",
+                "startTime": "2022-07-12 14:25:28",
+                "endTime": null,
+                "link": "",
+                "isup": null,
+                "des": null,
+                "imgurl": "http://asset.iloumai.com/dev/2022/7/9030cf2dbbb34500b3fbc37d047387a7.png",
+                "attachments": null
+            },
+            {
+                "infoId": "1565217996380508161",
+                "title": "关于2022年卓越工程人才-优秀工程技术人才享有举荐权的企业名单",
+                "infoType": "2",
+                "startTime": "2022-07-01 14:00:25",
+                "endTime": null,
+                "link": "",
+                "isup": null,
+                "des": null,
+                "imgurl": "http://asset.iloumai.com/dev/2022/9/2/924e84099d05471399a9458e2b0666f8.jpg",
+                "attachments": null
+            }
+        ],
+        "total": 6,
+        "size": 5,
+        "current": 1,
+        "orders": [],
+        "optimizeCountSql": true,
+        "searchCount": true,
+        "countId": null,
+        "maxLimit": null,
+        "pages": 2
+    }
+}
+
+2022-09-20 21:44:12.686 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 54.0 ms, response_length: 0 bytes
+2022-09-20 21:44:12.693 | INFO     | httprunner.response:validate:249 - assert status_code equal 200(int)	==> pass
+2022-09-20 21:44:12.694 | INFO     | httprunner.response:validate:249 - assert headers."Content-Type" equal application/json(str)	==> pass
+2022-09-20 21:44:12.696 | INFO     | httprunner.response:validate:249 - assert body.code equal 0(int)	==> pass
+2022-09-20 21:44:12.699 | INFO     | httprunner.response:validate:249 - assert body.msg equal None(NoneType)	==> pass
+2022-09-20 21:44:12.702 | INFO     | httprunner.runner:__run_step:304 - run step end: /vcms/app/info <<<<<<
+
